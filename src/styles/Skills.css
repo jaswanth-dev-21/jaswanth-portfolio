@@ -1,0 +1,57 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.skill-group {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+.skill-group:nth-child(1) { border-top: 4px solid #6366f1; }
+.skill-group:nth-child(2) { border-top: 4px solid #22c55e; }
+.skill-group:nth-child(3) { border-top: 4px solid #f59e0b; }
+.skill-group:nth-child(4) { border-top: 4px solid #ec4899; }
+.skill-group:nth-child(5) { border-top: 4px solid #06b6d4; }
+
+.skill-group:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.skill-category {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  font-family: 'Fira Code', monospace;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--light-gray);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 5px 12px;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.skill-tag:hover {
+  background: var(--text-primary);
+  color: var(--white);
+  border-color: var(--text-primary);
+}
