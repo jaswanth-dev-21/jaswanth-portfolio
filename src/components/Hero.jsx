@@ -53,7 +53,7 @@ export default function Hero() {
 
         <div className="hero-right">
           <div className="hero-photo-wrap">
-            <img src="/jaswanth.png" alt="Chenni Jaswanth" />
+            <img src="/jaswanth-portfolio/jaswanth.png" alt="Chenni Jaswanth" />
           </div>
           <div className="hero-badge hero-badge-1">React.js</div>
           <div className="hero-badge hero-badge-2">Node.js</div>
