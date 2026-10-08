@@ -1,0 +1,18 @@
+#admin { background: var(--light-gray); }
+.hidden { display: none; }
+.admin-form { display: flex; flex-direction: column; gap: 14px; max-width: 360px; }
+.admin-form input {
+  font-family: 'Inter', sans-serif; font-size: 0.9rem; color: var(--text-primary);
+  background: var(--white); border: 1px solid var(--border); border-radius: 9px; padding: 11px 14px; outline: none;
+}
+.admin-error { color: #dc2626; font-size: 0.85rem; }
+.response-list { display: grid; gap: 16px; margin-top: 24px; }
+.response-card {
+  background: var(--white); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 18px; box-shadow: var(--shadow-sm);
+}
+.response-card h3 { font-size: 1rem; }
+.response-card h3 span { font-weight: 400; color: var(--text-muted); font-size: 0.85rem; }
+.response-card p { margin: 8px 0; color: var(--text-secondary); white-space: pre-wrap; }
+.response-card small { color: var(--text-muted); }
+.theme-toggle { background: none; border: none; font-size: 1.15rem; line-height: 1; }
