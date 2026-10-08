@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jaswanth-portfolio/static/css/main.0626f544.css",
+    "main.js": "/jaswanth-portfolio/static/js/main.dc3d9bc5.js",
+    "index.html": "/jaswanth-portfolio/index.html",
+    "main.0626f544.css.map": "/jaswanth-portfolio/static/css/main.0626f544.css.map",
+    "main.dc3d9bc5.js.map": "/jaswanth-portfolio/static/js/main.dc3d9bc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0626f544.css",
+    "static/js/main.dc3d9bc5.js"
+  ]
+}
